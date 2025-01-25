@@ -11,7 +11,7 @@ fileInput.addEventListener("change", function () {
             uploadedImage.style.display = "block";
         } else {
             alert("Please select an image file (e.g., JPG, PNG).");
-            this.value = ""; // Clear the file input
+            this.value = ""; // Clear the file input field
         }
     }
 });
